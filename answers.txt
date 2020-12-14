@@ -1,0 +1,3 @@
+(a) We will have to access each of the articles, search for the words Netanyahu and Gantz and count the number of repetitions. We assume this can be done within 30 minutes.
+(b) For efficient work and shortening times it is recommended to use Bash scripts. The bush script is useful for a file of commands that we want to run over and over again. It is also great for managing knowledge of files or documents, and performing operations on folders / directories / files like arranging and searching.
+(c) To repeat the operation every hour we will use the watch command. To avoid double scanning of articles we will use the grep -v command and delete previous links.
